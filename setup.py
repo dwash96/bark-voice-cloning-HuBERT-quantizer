@@ -6,7 +6,7 @@ setup(
     packages=['bark_hubert_quantizer'],
     install_requires=[
         'audiolm-pytorch==1.1.4',
-        'fairseq',
+        'fairseq @ git+https://github.com/liyaodev/fairseq.git@b963eac7a04c539ad59fb1e23277f2ff7ee29e74',
         'huggingface-hub',
         'sentencepiece',
         'transformers',
